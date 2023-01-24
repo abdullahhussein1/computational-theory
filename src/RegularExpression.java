@@ -8,7 +8,7 @@ public class RegularExpression {
 
         Scanner scanner = new Scanner(System.in);
         String text = scanner.next();
-        Pattern pat = Pattern.compile("^a+");
+        Pattern pat = Pattern.compile("^b+");
         Matcher mat = pat.matcher(text);
 
         while (mat.find())
